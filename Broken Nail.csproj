@@ -9,12 +9,13 @@
   </PropertyGroup>
   <PropertyGroup>
     <RootNamespace>Broken_Nail</RootNamespace>
+	<!--So i know what the assembly name is based off-->
     <AssemblyName>Broken Nail</AssemblyName>
     <TargetFramework>net472</TargetFramework>
     <AssemblyTitle>BrokenNail</AssemblyTitle>
     <Product>BrokenNail</Product>
     <Description>Broken Nail Challenge mod</Description>
-    <Copyright>Copyright ©  2026</Copyright>
+    <Copyright>Copyright © Bluescratch 2026</Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
