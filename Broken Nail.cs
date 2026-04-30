@@ -51,13 +51,13 @@ public class Broken_Nail : Mod, ILocalSettings<GlobalSettingsClass>
 
         Instance = this;
 
-        Log("Initialized");
-
         ModeMenu.AddMode(new BrokenNailMenuConstructor());
 
         SpriteManager = new(Assembly, "Broken_Nail.Resources.");
 
         On.HeroController.Attack += ForceNailDamage;
+
+        Log("Initialized");
     }
 
     private void ForceNailDamage(On.HeroController.orig_Attack orig, HeroController self, AttackDirection attackDir)
